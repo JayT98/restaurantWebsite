@@ -1,0 +1,51 @@
+.orderContent {
+    margin-top: 150px;
+    text-align: center;
+}
+.orderContent h1 {
+    font-size: 50px;
+}
+
+.orderContent p {
+    font-size: 24px;
+}
+
+.orderContent hr {
+    width: 50%;
+}
+
+.orderItemList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: 50px 10%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.orderItem {
+    width: 280px;
+    cursor: pointer;
+    float: left;
+}
+
+.orderItem img{
+    width: 280px;
+    height: 280px;
+}
+
+.orderItem .title{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.orderItem p{
+    font-size: 20px;
+    display: grid;
+    justify-content: start;
+    opacity: 0.6;
+    margin-top: 5px;
+}
